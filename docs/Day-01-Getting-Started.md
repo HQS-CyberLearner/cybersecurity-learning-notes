@@ -30,7 +30,7 @@
 
    原因：bash: cd: /media/cdrom: No such file or directory找不到cdrom目录
 
-   解决：查看光盘被挂载到哪个 位置sudo mount | grept iso9660 或lsblk或挂接查看/media/下是否 有新目录ls -la /media/
+   解决：查看光盘被挂载到哪个 位置sudo mount | grep iso9660 或lsblk或挂接查看/media/下是否 有新目录ls -la /media/
 
    ![image-20260111173636410](image-20260111173636410.png)
 
@@ -42,4 +42,5 @@
 3. 学习Git基础：add, commit, push
 
 ## 感悟
+
 > 千里之行，始于足下。今天迈出了从零到一的关键一步。48岁不是障碍，而是沉淀的开始。
